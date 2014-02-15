@@ -2,9 +2,9 @@
 	<div class="row">
 		<div class="col-sm-2">
 			<img  
-				class="img-circle" 
-				src="http://www.gravatar.com/avatar/1d0ecd3093cbb80d7285274cc0a2b650.png" 
-				alt="Photo of Ken" />
+			class="img-circle" 
+			src="http://www.gravatar.com/avatar/1d0ecd3093cbb80d7285274cc0a2b650.png" 
+			alt="Photo of Ken" />
 		</div>
 		<div class="col-sm-10">
 			<h1>Ken Courville</h1>	
@@ -12,3 +12,14 @@
 		</div>
 	</div>
 </div>
+
+<script>
+	$(function(){
+		window.router = new App.Routers.ResumesRouter({
+			data : {
+				objective : "TODO"
+			}
+		});
+		Backbone.history.start();
+	});
+</script>

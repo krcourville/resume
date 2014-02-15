@@ -12,7 +12,7 @@ gem 'bootstrap-sass', '>= 3.0.0.0'
 gem 'figaro'
 gem 'high_voltage'
 gem 'simple_form'
-# gem "backbone-on-rails", "~> 1.1.0.0"
+gem "rails-backbone"
 
 group :development do
   gem 'better_errors'
