@@ -1,0 +1,1 @@
+class App.Models.Resume extends Backbone.Model
